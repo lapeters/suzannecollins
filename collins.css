@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: 'Lato', san-serif;
+  font-weight: 300;
+}
+/*FONT STYLES
+-------------------------------------------*/
+h1, h2 {font-family: 'Crimonson Text', serif;
+		font-variant:small-caps;
+		margin: 0 !important;
+}
+h3 {font-weight: 400;
+	text-transform: uppercase;
+}
+h4, h5, h6 {font-weight: bold;}
+.lato {font-style: 'Lato', san-serif !important;}
+.panel-title {font-weight:normal;}
+
+/*NAVBAR CSS
+----------------------------------------*/
+.navbar {
+  margin-bottom: 20px;
+}
+.navbar-nav {text-transform:uppercase;}
+.navbar, footer {background-color:#1A3E58;}
+
+/*JUMBOTRON CSS :: contain full image as header with no padding or margin
+--------------------------------------------------------------------------*/
+.jumbotron {
+	background-color:transparent;
+	padding: 0  !important;
+	margin-bottom: 10px !important;
+}
+.jumbotron > img {
+	border-radius: 10px;
+}
+
+/*ROW CSS :: pad content slightly within container
+----------------------------------------------------------*/
+.row {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.padcontent {padding-bottom: 10px;}
+/*CAROUSEL CSS :: move buttons from obstructing image text and remove indicators
+--------------------------------------------------------------------------------*/
+.carousel-caption {padding-bottom: 3px;}
+.buttonshift {padding-bottom:15px;
+	padding-left: 130px;}
+.carousel-indicators {
+  bottom:-50px;
+}
+.carousel-inner {
+   margin-bottom:50px;
+}
+/*COLOR SCHEME CSS
+--------------------------------------------------------------*/
+.well {border-radius: 10px !important;
+		background-color:#f2f0ec;}
+.panel-heading{background-color:#f4f2f0;}
+.panel-body{background-color:#f8f7f5;}
+.btn-default:hover {background-color: #1A3E58 !important;
+						color:#FFF;
+}
+footer a:link {color: #FFF;}
+
+/*FOOTER CSS :: stickly footer with size and border radius mimicking navbar
+-----------------------------------------------------------------------------*/
+footer{
+  position:relative;
+  display:block;
+  bottom: 0;
+  width: 100%;
+  height:52px;
+  border-radius:5px;
+}
+footer p {
+	color:#FFF;
+}
+
+
+
+/*INDEX PAGE MARKETING LINKS CSS
+---------------------------------------------*/
+figure.snip0063 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: #000000;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+figure.snip0063 * {
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.snip0063 img {
+  opacity: 0.3;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+figure.snip0063 figcaption {
+  position: absolute;
+  bottom: 28px;
+  left: 30px;
+  right: 30px;
+  background: #000000;
+}
+figure.snip0063 figcaption h2,
+figure.snip0063 figcaption h3
+ {
+  font-family: 'Lato', san-serif;
+  top: 50%;
+  letter-spacing: -1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 0 !important;
+  margin: 0;
+  font-weight: 300;
+}
+figure.snip0063 figcaption h2 span,
+figure.snip0063 figcaption h3 span {
+  font-weight: 900;
+}
+figure.snip0063 figcaption:before,
+figure.snip0063 figcaption:after {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 0;
+  height: 2px;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.snip0063 figcaption:before {
+  left: 0;
+  top: 0;
+}
+figure.snip0063 figcaption:after {
+  bottom: 0;
+  right: 0;
+}
+
+figure.snip0063.red {
+  background: #4a3535;
+}
+figure.snip0063.red figcaption {
+  background: #957F6A;
+}
+figure.snip0063.yellow {
+  background: #4A3C21;
+}
+figure.snip0063.yellow figcaption {
+  background: #a68740;;
+}
+figure.snip0063.navy {
+  background: #000000;
+}
+figure.snip0063.navy figcaption {
+  background: #1D3245;
+}
+figure.snip0063 a {
+  left: 0;
+  right: 0;
+  position: relative;
+  bottom: 0;
+}
+figure.snip0063:hover img,
+figure.snip0063.hover img {
+  opacity: 1;
+}
+figure.snip0063:hover figcaption:before,
+figure.snip0063.hover figcaption:before,
+figure.snip0063:hover figcaption:after,
+figure.snip0063.hover figcaption:after {
+  width: 100%;
+}
